@@ -79,8 +79,10 @@ The following tools were used to build the project:
 -   **[Laravel Jetstream](https://jetstream.laravel.com/)** >= 2.11
 -   **[Laravel Websockets](https://beyondco.de/)** >= 2.11
 -   **[Redis](https://redis.io/)**
--   **[VueJS](https://vuejs.org/)**
--   **[Vuex](https://vuex.vuejs.org/)**
+-   **[VueJS](https://vuejs.org/)** >=3.2.31
+-   **[Vuex](https://vuex.vuejs.org/)** >= 4.0.2
+-   **[Vuex Persisted Date](https://www.npmjs.com/package/vuex-persistedstate)** >= 4.1.0
+-   **[MomentJS](https://momentjs.com/)** >= 2.29.4
 -   **[Tailwind CSS](https://tailwindcss.com/)**
 -   **[MySQL](https://www.mysql.com/)**
 
