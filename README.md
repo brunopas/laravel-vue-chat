@@ -30,6 +30,7 @@ First, clone this repository, install the dependencies, and setup your <code>.en
 ```
 git clone https://github.com/brunopas/laravel-chat.git
 composer install
+npm install
 cp .env.example .env
 ```
 This app uses <strong><a href="https://www.mysql.com/">MySQL</a></strong>. To use something different, open up <code>config/Database.php</code> and change the default driver.<br>
