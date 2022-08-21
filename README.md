@@ -27,44 +27,46 @@ In addition, it is good to have an editor to work with the code like <strong><a 
 
 ### Installation
 First, clone this repository, install the dependencies, and setup your <code>.env</code> file.
-```
-git clone https://github.com/brunopas/laravel-chat.git
-composer install
-npm install
-cp .env.example .env
+```bash
+$ git clone https://github.com/brunopas/laravel-chat.git
+$ cd laravel-chat
+
+$ composer install
+$ npm install
+$ cp .env.example .env
 ```
 This app uses <strong><a href="https://www.mysql.com/">MySQL</a></strong>. To use something different, open up <code>config/Database.php</code> and change the default driver.<br>
 To use MySQL, make sure you install it, setup a database and then add your DB credentials (database, username and password) to the <code>.env</code> file.
 
 ### Database Setup
 Then, create the necessary database.
-```
-php artisan db
-create database laravel_chat
+```bash
+$ php artisan db
+$ create database laravel_chat
 ```
 
 ### Migrations
 Finally, run the initial migrations and seeders.
-```
-php artisan migrate --seed
+```bash
+$ php artisan migrate --seed
 ```
 
 ### Running - Laravel Websocket Server
 To serve the application on the Laravel Websocket development server, run the following command:
 ```
-php artisan websockets:server
+$ php artisan websockets:server
 ```
 
 ### Running - Laravel Vite (Vue) Server
 To serve the application on the Laravel Vite (Vue) development server, run the following command:
-```
-npm run dev
+```bash
+$ npm run dev
 ```
 
 ### Running - PHP Server
 To serve the application on the PHP development server, run the following command:
-```
-php artisan serve
+```bash
+$ php artisan serve
 ```
 
 ---
@@ -74,7 +76,6 @@ php artisan serve
 The following tools were used to build the project:
 -   **[PHP](https://www.php.net/)** >= 8.0.2
 -   **[Laravel Framework](https://laravel.com/)** >= 9.19
--   **[Laravel Blade](https://laravel.com/)**
 -   **[Laravel Sanctum](https://laravel.com/)** >= 3.0
 -   **[Laravel Jetstream](https://jetstream.laravel.com/)** >= 2.11
 -   **[Laravel Websockets](https://beyondco.de/)** >= 2.11
